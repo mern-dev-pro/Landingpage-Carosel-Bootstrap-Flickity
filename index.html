@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="assets/css//custom.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">       
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+        <title>Real Estate</title>
+    </head>
+    <body>
+        <div class="container my-2">
+            <div class="carose-section position-relative">
+                <div id="floor-plan" style="display: none; position: absolute; top: 0; left: 0; z-index: 1001; width: 100%; height: 700px;">
+                    <img src="assets/img/plan.jpg" alt="" class="w-100 h-100">
+                </div>
+                <div id="map" style="display: none; position: absolute; top: 0; left: 0; z-index: 1000;"></div>
+                <div class="main-carousel">
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img//img_1.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img/img_2.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img//img_3.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img/img_4.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img//img_5.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img/img_6.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img//img_7.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img/img_8.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img//img_9.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img/img_10.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img/img_11.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img//img_12.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img/img_13.jpg"/></div>
+                    <div class="carousel-cell"><img class="w-100 h-100" src="assets/img/img_14.jpg"/></div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="hero-button-left text-center pt-3">
+                        <img style="width: 30px; height: 30px;" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Line-style-icons-map-pin.svg"/>
+                        <p class="text-center text-white">MAP</p>
+                    </div>
+
+                    <div class="hero-button-right text-center pt-3">
+                        <img style="width: 30px; height: 30px;" src="assets/img/expand.svg"/>
+                        <p class="text-center text-white">FLOORPLAN</p>
+                    </div>        
+                </div>
+                <div class="carousel-nav">
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img//img_1.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img/img_2.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img//img_3.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img/img_4.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img//img_5.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img/img_6.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img//img_7.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img/img_8.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img//img_9.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img/img_10.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img//img_11.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img/img_12.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img/img_13.jpg"/></div>
+                    <div class="carousel-cell size-nav"><img class="w-100 h-100" src="assets/img/img_14.jpg"/></div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="row px-md-5">
+                    <div class="col-md-6 col-12">
+                        <h3 class=""><strong> High Street Glen Iris 3146</strong></h3>
+                        <h4 class="add-silver-color">$1,450,000 - $1,550,000</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex justify-content-center">
+                            <div class="p-4 text-center">
+                                <img style="width: 50px; height: 50px;" src="assets/img//bed-svgrepo-com.svg"/>
+                                <p>Beds</p>
+                            </div>
+                            <div class="p-4 text-center">
+                                <img style="width: 50px; height: 50px;" src="assets/img/bath.svg"/>
+                                <p>Baths</p>
+                            </div>
+                            <div class="p-4 text-center">
+                                <img style="width: 50px; height: 50px;" src="assets/img/car-svgrepo-com.svg"/>
+                                <p>Cars</p>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="px-md-5">
+                    <h5 class=""><strong> Fully Renoated Ground Level Apartment In Perfect Location </strong></h5>
+                    <p>
+                        Only seconds from Cooper Reserve, this fashionably updated three bedroom weatherboard sits on a corner allotment of 590sqm (approx.). A sparkling stone kitchen with new appliances, stylishly renovated bathroom, sun-filled lounge/dining and study provide immediate comfort.<br><br>
+                        An exciting opportunity to gain a foothold into this highly sought-after locale, there is outstanding potential to renovate further, lease out or construct a luxurious family residence (STCA). Enjoying a range of nearby lifestyle conveniences, sample the cafes at Through Road or wander through Wattle Park with its golf course and tennis courts. Close to preschools, primary schools and zoned for Camberwell High, stroll to buses and the tram to Camberwell and the CBD.<br><br>
+                        An exciting opportunity to gain a foothold into this highly sought-after locale, there is outstanding potential to renovate further, lease out or construct a luxurious family residence (STCA). Enjoying a range of nearby lifestyle conveniences, sample the cafes at Through Road or wander through Wattle Park with its golf course and tennis courts. Close to preschools, primary schools and zoned for Camberwell High, stroll to buses and the tram to Camberwell and the CBD.<br><br>
+                    </p>
+                </div>
+                <div class="mt-4 px-md-5">
+                    <h5 class="add-pink-color"><strong>Auction</strong></h5>
+                    <h6  class="my-1">Saturday 10, April 11.00 am</h6>
+                    <h5 class="mt-3 add-pink-color"><strong>Next Inspections</strong></h5>
+                    <h6 class="my-1">Saturday 10, April 11.00 am - 12.00 am</h6>
+                    <h6 class="my-1">Saturday 10, April 11.00 am - 12.00 am</h6>
+                    <h5 class="mt-3 add-pink-color"><strong>Resources</strong></h5>
+                    <h6  class="my-1">Statment for information</h6>
+                </div>
+            </div>
+            <div class="my-5 px-md-5 position-relative">
+                <div class="w-100 bg-dark" style="cursor: pointer;">
+                    <img class="w-100 video-back" src="assets/img/video.jpg"/>
+                </div>
+                <img class="video-play" src="assets/img/video-play-icon.webp" style="position: absolute; left: calc(50% - 35px); top: calc(50% - 25px); position: absolute; cursor: pointer;"/>
+            </div>
+            <div class="px-md-5 my-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="w-100" src="assets/img/avatar1.jpg"/>
+                            </div>
+                            <div class="col-md-6  p-4">
+                                <h5 class="add-silver-color"><strong>Agent Name</strong></h5>
+                                <div class="d-flex mt-3 align-items-center">
+                                    <img style="width: 30px; height: 30px;" src="assets/img/phone.svg"/>
+                                    <p class="my-0" style="margin-left: 20px;">Phone</p>
+                                </div>
+                                <div class="d-flex mt-3 align-items-center">
+                                    <img style="width: 30px; height: 30px;" src="assets/img/email.svg"/>
+                                    <p class="my-0" style="margin-left: 20px;">Email</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="w-100"   src="assets/img/avatar2.jpg"/>
+                            </div>
+                            <div class="col-md-6 p-4">
+                                <h5 class="add-silver-color"><strong>Agent Name</strong></h5>
+                                <div class="d-flex mt-3 align-items-center">
+                                    <img style="width: 30px; height: 30px;" src="assets/img/phone.svg"/>
+                                    <p class="my-0" style="margin-left: 20px;">Phone</p>
+                                </div>
+                                <div class="d-flex mt-3 align-items-center">
+                                    <img style="width: 30px; height: 30px;" src="assets/img/email.svg"/>
+                                    <p class="my-0" style="margin-left: 20px;">Email</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-md-5 mt-5">
+                    <div class="px-md-5">
+                        <h5 class="add-silver-color"><strong>Find Out More</strong></h5>
+                        <div class="px-md-5">
+                            <input type="text" placeholder="Name" class="custom-input w-100 m-3"/>
+                            <input type="text" placeholder="Mobile" class="custom-input w-100 m-3"/>
+                            <input type="text" placeholder="Email" class="custom-input w-100 m-3"/>
+                            <textarea rows="4" placeholder="Enquiry" class="custom-input w-100 m-3"></textarea>
+                            <div class="text-center">
+                                <button class="custom-button">Send</button>
+                            </div>
+                        </div>
+                        <h5 class="mt-5 add-silver-color"><strong>Share</strong></h5>
+                        <div class="px-md-5">
+                            <img style="width: 30px; height: 30px;" class="mx-2"   src="assets/img/phone.svg"/>
+                            <img style="width: 30px; height: 30px;" class="mx-2"   src="assets/img/facebook.svg"/>
+                            <img style="width: 30px; height: 30px;" class="mx-2"   src="assets/img/linkedin.svg">
+                            <img style="width: 30px; height: 30px;" class="mx-2"   src="assets/img/twitter.svg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.42&key=AIzaSyBoY4Yn60USF1fDNIm65QVpRBowNeBBgbA&libraries=places"></script>
+    <script>
+        $('.main-carousel').flickity({
+            cellAlign: 'left',
+            contain: true,
+            fullscreen: true,
+            lazyLoad: 1,
+            pageDots: false,
+            prevNextButtons: false,
+            wrapAround: true,
+            fade: true
+        });
+        $('.carousel-nav').flickity({
+            asNavFor: '.main-carousel',
+            contain: true,
+            pageDots: false,
+            wrapAround: true,
+            arrowShape: { 
+                x0: 10,
+                x1: 60, y1: 50,
+                x2: 65, y2: 45,
+                x3: 20
+            }
+        });
+    </script>
+    <script>
+        let width = $('.main-carousel').width(), height = $('.main-carousel').height();
+        $('#map').width(width);
+        $('#map').height(height);
+        map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 8,
+        });
+        var latlng = new google.maps.LatLng(-34.397,150.644);
+        var marker_pickup = new google.maps.Marker({
+            map: map,
+            position: latlng,
+            draggable: true,
+            anchorPoint: new google.maps.Point(0, -29)
+        });
+    </script>
+    <script>
+        $('.hero-button-left').on('click', () => {
+            if($('#map').css("display") == "none")
+                $('#map').show(500);
+            else
+                $('#map').hide(500);
+        });
+        $('.hero-button-right').on('click', () => {
+            if($('#floor-plan').css("display") == "none")
+                $('#floor-plan').show(500);
+            else
+                $('#floor-plan').hide(500);
+        });
+        $('.video-play').on('mouseover', () => {
+            $('.video-back').css("opacity", "1");
+        });
+        $('.video-back').on('mouseout', () => {
+            $('.video-back').css("opacity", "0.8");
+        });
+        $('.video-back').on('mouseover', () => {
+            $('.video-back').css("opacity", "1");
+        });
+    </script>
+</html>
