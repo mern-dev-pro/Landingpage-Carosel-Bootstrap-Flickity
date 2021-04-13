@@ -1,6 +1,6 @@
 .carousel-cell {
     width: 100%;
-    height: 800px;
+    height: 900px;
     margin-right: 10px;
 }
 .carousel-cell.size-nav { 
@@ -91,14 +91,24 @@
 @media screen and ( max-width: 1400px ) {
     .carousel-cell {
         width: 100%;
-        height: 650px;
+        height: 800px;
         margin-right: 10px;
     }
     .floor-plan{
-        height: 650px !important;
+        height: 800px !important;
     }
 }
 @media screen and ( max-width: 1200px ) {
+    .carousel-cell {
+        width: 100%;
+        height: 700px;
+        margin-right: 10px;
+    }
+    .floor-plan{
+        height: 700px !important;
+    }
+}
+@media screen and ( max-width: 992px ) {
     .carousel-cell {
         width: 100%;
         height: 600px;
@@ -108,7 +118,7 @@
         height: 600px !important;
     }
 }
-@media screen and ( max-width: 992px ) {
+@media screen and ( max-width: 768px ) {
     .carousel-cell {
         width: 100%;
         height: 500px;
@@ -116,15 +126,5 @@
     }
     .floor-plan{
         height: 500px !important;
-    }
-}
-@media screen and ( max-width: 768px ) {
-    .carousel-cell {
-        width: 100%;
-        height: 400px;
-        margin-right: 10px;
-    }
-    .floor-plan{
-        height: 400px !important;
     }
 }
